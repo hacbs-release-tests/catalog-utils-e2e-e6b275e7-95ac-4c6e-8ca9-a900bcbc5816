@@ -125,7 +125,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: push-rpm-data-to-pyxis
-      image: quay.io/konflux-ci/release-service-utils@sha256:265f125c17ba430619b2ffd16a5ebee648a739c16e1644e56c92a660f6c82b15
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:202138b268d23261b1f5af3cac853823e9664601eee816e9c6666ce477b0c4b9
       computeResources:
         limits:
           memory: 1280Mi
